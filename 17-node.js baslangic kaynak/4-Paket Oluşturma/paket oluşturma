@@ -1,0 +1,55 @@
+-- npm init -> paket oluşturmak için
+    --> package name (paket adını belirleme)
+    --> version (version belirleme)
+    --> description (paket tanımını belirleme)
+    --> entry point (projenin ana dosyası belirlemek)
+    --> test command (projede yazmamız gereken test komutları)
+    --> git repository (proje'nin bulunduğu github adresini belirleme)
+    --> keywords (projenin bulunamsını sağlayan örnek kelimeler)
+    --> author (proje'nin kim tarafından yazıldığı)
+    --> license (proje'nin lisansını belirleme)
+
+
+-- npm run (package.json'daki scriptteki "key" yazma) || npm run-script (package.json'daki scriptteki "key" yazma)
+
+PS F:\node.js baslangic kaynak\4-Paket Oluşturma> npm run-script adim
+
+> node.js-paketi@1.0.0 adim F:\node.js baslangic kaynak\4-Paket Oluşturma
+> echo 'Benim adim'
+
+'Benim adim'
+PS F:\node.js baslangic kaynak\4-Paket Oluşturma> npm run adim
+
+> node.js-paketi@1.0.0 adim F:\node.js baslangic kaynak\4-Paket Oluşturma
+> echo 'Benim adim'
+
+'Benim adim'
+
+
+--- package.json dependencies kısmına gerekli paketleri yazıp "npm install" diyerekte indirebiliriz.
+
+--- devDependencies -> sadece gelişme ortamında ihtiyacın varsa buraya eklenecek
+
+
+-- git -> repository alanında
+
+PS F:\node.js baslangic kaynak\4-Paket Oluşturma> echo "# node.js-deneme-paketi" >> README.md
+PS F:\node.js baslangic kaynak\4-Paket Oluşturma> git init
+Initialized empty Git repository in F:/node.js baslangic kaynak/4-Paket Oluşturma/.git/
+PS F:\node.js baslangic kaynak\4-Paket Oluşturma> git add . (Tüm Dosyaları ekleme)
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/Rapter1990/node.js-deneme-paketi.git
+
+git push -u origin master
+
+-- git projeyi update etme
+git .add
+git commit -m "first commit"
+git push -u origin master
+
+-- package npm yayınlama
+
+
+
