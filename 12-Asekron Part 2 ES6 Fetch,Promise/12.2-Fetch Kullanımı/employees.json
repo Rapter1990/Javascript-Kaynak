@@ -1,0 +1,23 @@
+[
+    {
+        "name":"Sercan Noyan Germiyanoğlu",
+        "department":"Yazılım & Bilişim",
+        "salary" : 5000
+    },
+    {
+        "name":"Enes Boyraz",
+        "department":"Bilgi Güvenliği",
+        "salary" : 4500
+    },
+    {
+        "name":"Eren Cengiz",
+        "department":"Web Tasarım",
+        "salary" : 4500
+    },
+    {
+        "name":"Hızır Hızıroğlu",
+        "department":"Bilgi Güvenliği",
+        "salary" : 4500
+    }
+
+]
